@@ -1,0 +1,21 @@
+{
+  "name": "livestream",
+  "version": "1.0.0",
+  "description": "App that records video and displays it on splash page for users",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7",
+    "volleyball": "^1.4.1"
+  }
+}
